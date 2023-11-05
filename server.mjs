@@ -9,8 +9,8 @@ const app = express();
 const PORT = 3000;
 
 // Serve static files from the "public" directory
-app.use(cors());
 app.use(express.static("public"));
+app.use(cors({ origin: 'https://darkoilieski.netlify.app' }));
 
 // Replace bodyParser with express's built-in methods
 app.use(express.urlencoded({ extended: false }));

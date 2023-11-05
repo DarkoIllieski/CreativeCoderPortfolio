@@ -78,7 +78,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     console.log(`Fetched values - Name: ${name}, Email: ${email}, Message: ${message}`);
 
-    fetch('http://localhost:3000/send-email', {
+    fetch('https://your-backend-service.com/send-email', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

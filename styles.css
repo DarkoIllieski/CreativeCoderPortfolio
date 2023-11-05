@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 :root {
-  --primary: #434343;
+  --primary: #8f8c8c;
   --secondary: #dad8d8;
 }
 
@@ -152,7 +152,7 @@ h2 {
 
 .hero-subtitle {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  color:#363535;
+  color:#6e6d6d;
   animation: fadeIn 3s forwards;
   position: absolute;
   top: 48%;
