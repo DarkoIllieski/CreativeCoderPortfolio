@@ -78,7 +78,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     console.log(`Fetched values - Name: ${name}, Email: ${email}, Message: ${message}`);
 
-    fetch('https://portfolio-backend.ew.r.appspot.com/send-email', {
+    fetch('http://localhost:3000/send-email', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
